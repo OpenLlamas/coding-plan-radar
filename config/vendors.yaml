@@ -1,0 +1,210 @@
+# Vendor catalog for coding-plan-radar.
+#
+# Add or edit entries freely — this file is the only source of crawl targets.
+#   id            unique slug (used in state/report files, --vendors filter)
+#   region        global | cn | any label you like (used to group report sections)
+#   category      subscription | api | free
+#   currency      fallback currency when a price line carries no symbol
+#   pricing_url   public page with the plan matrix (must be crawlable; JS-heavy
+#                 pages need --render)
+#   notes         anything a human reader should know (metering model, caveats)
+
+vendors:
+  - id: anthropic-claude
+    name: "Anthropic Claude (Pro / Max)"
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://www.anthropic.com/pricing
+    homepage: https://claude.ai
+    notes: "Claude Pro and Max; usage published as messages per 5-hour window."
+
+  - id: openai-chatgpt
+    name: "OpenAI ChatGPT (Plus / Pro / Business)"
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://openai.com/chatgpt/pricing/
+    homepage: https://chatgpt.com
+    notes: "Codex CLI access is bundled with paid ChatGPT plans."
+
+  - id: github-copilot
+    name: "GitHub Copilot"
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://github.com/features/copilot/plans
+    homepage: https://github.com/features/copilot
+    notes: "Quotas are expressed in premium requests per month."
+
+  - id: cursor
+    name: Cursor
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://cursor.com/pricing
+    homepage: https://cursor.com
+    notes: "Usage metered by model requests / credits; page is marketing-heavy."
+
+  - id: windsurf
+    name: Windsurf
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://windsurf.com/pricing
+    homepage: https://windsurf.com
+    notes: "Credit-based metering."
+
+  - id: google-gemini
+    name: "Google Gemini (AI plans / Code Assist)"
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://one.google.com/about/google-ai-plans/
+    homepage: https://gemini.google.com
+    notes: "Consumer AI plans; Gemini Code Assist has its own free/standard tiers."
+
+  - id: jetbrains-ai
+    name: JetBrains AI
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://www.jetbrains.com/ai-ides/buy/
+    homepage: https://www.jetbrains.com/ai/
+    notes: "Sold per seat, AI Pro / AI Ultimate tiers."
+
+  - id: amazon-q
+    name: Amazon Q Developer
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://aws.amazon.com/q/developer/pricing/
+    homepage: https://aws.amazon.com/q/developer/
+    notes: "Free tier plus Pro per user per month."
+
+  - id: augment-code
+    name: Augment Code
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://www.augmentcode.com/pricing
+    homepage: https://www.augmentcode.com
+
+  - id: cline
+    name: Cline
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://cline.bot/pricing
+    homepage: https://cline.bot
+    notes: "Open-source agent; some plans are BYO-key, watch metering model."
+
+  - id: warp
+    name: Warp
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://www.warp.dev/pricing
+    homepage: https://www.warp.dev
+
+  - id: zed
+    name: Zed
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://zed.dev/pricing
+    homepage: https://zed.dev
+    notes: "Editor is free; AI usage is charged separately."
+
+  - id: factory-droid
+    name: Factory Droid
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://factory.ai/pricing
+    homepage: https://factory.ai
+
+  - id: replit
+    name: Replit
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://replit.com/pricing
+    homepage: https://replit.com
+    notes: "Agent credits bundled with deploy/compute pricing."
+
+  - id: tabnine
+    name: Tabnine
+    region: global
+    category: subscription
+    currency: USD
+    pricing_url: https://www.tabnine.com/pricing
+    homepage: https://www.tabnine.com
+
+  - id: zhipu-glm
+    name: "Zhipu GLM Coding Plan"
+    region: cn
+    category: subscription
+    currency: CNY
+    pricing_url: https://bigmodel.cn/claude-code
+    homepage: https://bigmodel.cn
+    notes: "GLM coding subscription; page may require --render."
+
+  - id: moonshot-kimi
+    name: "Moonshot Kimi for Coding"
+    region: cn
+    category: subscription
+    currency: CNY
+    pricing_url: https://kimi.moonshot.cn
+    homepage: https://kimi.moonshot.cn
+    notes: "Coding membership sold alongside the chat product."
+
+  - id: alibaba-lingma
+    name: "Alibaba Tongyi Lingma"
+    region: cn
+    category: subscription
+    currency: CNY
+    pricing_url: https://lingma.aliyun.com
+    homepage: https://lingma.aliyun.com
+
+  - id: bytedance-trae
+    name: "ByteDance Trae"
+    region: cn
+    category: subscription
+    currency: USD
+    pricing_url: https://www.trae.ai/pricing
+    homepage: https://www.trae.ai
+    notes: "Pricing page is JS-driven; enable --render."
+
+  - id: tencent-codebuddy
+    name: "Tencent CodeBuddy"
+    region: cn
+    category: subscription
+    currency: CNY
+    pricing_url: https://copilot.tencent.com
+    homepage: https://copilot.tencent.com
+
+  - id: baidu-comate
+    name: Baidu Comate
+    region: cn
+    category: subscription
+    currency: CNY
+    pricing_url: https://comate.baidu.com
+    homepage: https://comate.baidu.com
+
+  - id: minimax
+    name: "MiniMax Coding Plan"
+    region: cn
+    category: subscription
+    currency: CNY
+    pricing_url: https://platform.minimaxi.com
+    homepage: https://www.minimaxi.com
+
+  - id: qwen-code
+    name: "Qwen Code (free CLI)"
+    region: cn
+    category: free
+    currency: CNY
+    pricing_url: https://github.com/QwenLM/qwen-code
+    homepage: https://github.com/QwenLM/qwen-code
+    notes: "Free OAuth quota for the CLI; limits published in the README."

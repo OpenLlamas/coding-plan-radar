@@ -1,0 +1,38 @@
+# Scoring configuration. Everything here is a knob: change it, the ranking changes.
+# The methodology section of the README explains how these numbers are combined.
+
+# Units of currency per 1 USD. Static reference rates, not live FX — update by hand.
+fx_to_usd:
+  USD: 1.0
+  CNY: 7.1
+  EUR: 0.92
+  GBP: 0.79
+fx_note: "Static reference rates set 2026-10; replace with live rates if precision matters."
+
+price:
+  # Free tiers cannot be divided by zero; they are scored as if they cost this much.
+  free_floor_usd: 0.5
+  # One-time / lifetime prices are amortized over this many months.
+  amortize_one_time_months: 12
+
+# Feature checklist used by rule and AI extraction. Weights are relative.
+features:
+  weights:
+    agent: 1.0
+    cli: 1.0
+    api_access: 0.8
+    ide: 0.6
+    model_choice: 0.6
+    mcp: 0.5
+    team: 0.4
+
+# How the two comparable capacity dimensions are blended.
+capacity:
+  weights:
+    tokens: 0.6
+    requests: 0.4
+
+value:
+  weights:
+    capacity: 0.7
+    features: 0.3

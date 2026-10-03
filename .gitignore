@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+
+# local run state: snapshots, last extraction, previous/latest run JSON
+/data/*
+!/data/.gitkeep
