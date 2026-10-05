@@ -1,0 +1,3425 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-05T15:04:00+00:00",
+  "run": {
+    "run_id": "20261005T150400Z",
+    "vendors_total": 23,
+    "vendors_ok": 23,
+    "fetch_failed": [],
+    "ai_enabled": false,
+    "offline": false
+  },
+  "plan_count": 87,
+  "plans": [
+    {
+      "rank": 1,
+      "vendor_id": "zed",
+      "vendor_name": "Zed",
+      "region": "global",
+      "plan_name": "Personal",
+      "price": 0.0,
+      "currency": "USD",
+      "billing_period": "free",
+      "effective_monthly_usd": 0.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 57.1,
+      "value_score": 100.0,
+      "features": [
+        "agent",
+        "api_access",
+        "cli"
+      ],
+      "models": [
+        "Claude"
+      ],
+      "quotas": [],
+      "source_url": "https://zed.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed",
+        "free tier"
+      ],
+      "plan_notes": "price line: $0"
+    },
+    {
+      "rank": 2,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Free",
+      "price": 0.0,
+      "currency": "USD",
+      "billing_period": "free",
+      "effective_monthly_usd": 0.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 40.8,
+      "value_score": 71.5,
+      "features": [
+        "agent",
+        "cli"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed",
+        "free tier"
+      ],
+      "plan_notes": "price line: $0"
+    },
+    {
+      "rank": 3,
+      "vendor_id": "windsurf",
+      "vendor_name": "Windsurf",
+      "region": "global",
+      "plan_name": "Free",
+      "price": 0.0,
+      "currency": "USD",
+      "billing_period": "free",
+      "effective_monthly_usd": 0.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 20.4,
+      "value_score": 35.7,
+      "features": [
+        "agent"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://windsurf.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed",
+        "free tier"
+      ],
+      "plan_notes": "price line: $0"
+    },
+    {
+      "rank": 4,
+      "vendor_id": "windsurf",
+      "vendor_name": "Windsurf",
+      "region": "global",
+      "plan_name": "Pro",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 57.1,
+      "value_score": 2.5,
+      "features": [
+        "agent",
+        "api_access",
+        "cli"
+      ],
+      "models": [
+        "Claude",
+        "Gemini"
+      ],
+      "quotas": [],
+      "source_url": "https://windsurf.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20"
+    },
+    {
+      "rank": 5,
+      "vendor_id": "amazon-q",
+      "vendor_name": "Amazon Q Developer",
+      "region": "global",
+      "plan_name": "Free Tier: Advanced capabilities at zero cost",
+      "price": 19.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 19.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 53.1,
+      "value_score": 2.4,
+      "features": [
+        "agent",
+        "cli",
+        "ide"
+      ],
+      "models": [
+        "Claude"
+      ],
+      "quotas": [],
+      "source_url": "https://aws.amazon.com/q/developer/pricing/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: Pro Tier: Expanded limits $19/mo. per user"
+    },
+    {
+      "rank": 6,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Everything in Build, plus:",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 44.9,
+      "value_score": 2.0,
+      "features": [
+        "agent",
+        "api_access",
+        "team"
+      ],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "credits",
+          "amount": 1500.0,
+          "unit": "credits",
+          "period": "month",
+          "model_tier": "",
+          "text": "1,500 credits per seat ($20 of included agent usage at API rates)"
+        }
+      ],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: 1,500 credits per seat ($20 of included agent usage at API rates)"
+    },
+    {
+      "rank": 7,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Everything in Free, plus:",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 44.9,
+      "value_score": 2.0,
+      "features": [
+        "agent",
+        "api_access",
+        "team"
+      ],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "credits",
+          "amount": 1500.0,
+          "unit": "credits",
+          "period": "month",
+          "model_tier": "",
+          "text": "1,500 credits ($20 of included agent usage at API rates)"
+        }
+      ],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: 1,500 credits ($20 of included agent usage at API rates)"
+    },
+    {
+      "rank": 8,
+      "vendor_id": "factory-droid",
+      "vendor_name": "Factory Droid",
+      "region": "global",
+      "plan_name": "Pro",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 40.8,
+      "value_score": 1.8,
+      "features": [
+        "agent",
+        "cli"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://factory.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20"
+    },
+    {
+      "rank": 9,
+      "vendor_id": "zed",
+      "vendor_name": "Zed",
+      "region": "global",
+      "plan_name": "Business",
+      "price": 30.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 30.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 44.9,
+      "value_score": 1.3,
+      "features": [
+        "agent",
+        "api_access",
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://zed.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $30"
+    },
+    {
+      "rank": 10,
+      "vendor_id": "anthropic-claude",
+      "vendor_name": "Anthropic Claude (Pro / Max)",
+      "region": "global",
+      "plan_name": "Get Enterprise plan",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 24.5,
+      "value_score": 1.1,
+      "features": [
+        "api_access",
+        "team"
+      ],
+      "models": [
+        "Claude"
+      ],
+      "quotas": [],
+      "source_url": "https://www.anthropic.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: US$20/seat/month, billed annually. Usage cost scales with model and task."
+    },
+    {
+      "rank": 11,
+      "vendor_id": "windsurf",
+      "vendor_name": "Windsurf",
+      "region": "global",
+      "plan_name": "Enterprise",
+      "price": 40.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 40.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 44.9,
+      "value_score": 1.0,
+      "features": [
+        "api_access",
+        "cli",
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://windsurf.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $40/month per"
+    },
+    {
+      "rank": 12,
+      "vendor_id": "cursor",
+      "vendor_name": "Cursor",
+      "region": "global",
+      "plan_name": "Individual",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 20.4,
+      "value_score": 0.9,
+      "features": [
+        "agent"
+      ],
+      "models": [
+        "Grok"
+      ],
+      "quotas": [],
+      "source_url": "https://cursor.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20"
+    },
+    {
+      "rank": 13,
+      "vendor_id": "cursor",
+      "vendor_name": "Cursor",
+      "region": "global",
+      "plan_name": "Get Pro",
+      "price": 40.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 40.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 28.6,
+      "value_score": 0.6,
+      "features": [
+        "agent",
+        "team"
+      ],
+      "models": [
+        "Grok"
+      ],
+      "quotas": [],
+      "source_url": "https://cursor.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $40"
+    },
+    {
+      "rank": 14,
+      "vendor_id": "anthropic-claude",
+      "vendor_name": "Anthropic Claude (Pro / Max)",
+      "region": "global",
+      "plan_name": "All Claude features, plus more usage than Pro*",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.4,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.anthropic.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20"
+    },
+    {
+      "rank": 15,
+      "vendor_id": "augment-code",
+      "vendor_name": "Augment Code",
+      "region": "global",
+      "plan_name": "ENTERPRISE",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.4,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.augmentcode.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20/mo of usage included"
+    },
+    {
+      "rank": 16,
+      "vendor_id": "augment-code",
+      "vendor_name": "Augment Code",
+      "region": "global",
+      "plan_name": "STANDARD",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.4,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.augmentcode.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20"
+    },
+    {
+      "rank": 17,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Max",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 40.8,
+      "value_score": 0.4,
+      "features": [
+        "agent",
+        "cli"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $100"
+    },
+    {
+      "rank": 18,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "4x+ included usage than Pro",
+      "price": 70.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 70.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 2.9,
+        "basis": "2.9× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 20.4,
+      "value_score": 0.3,
+      "features": [
+        "agent"
+      ],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 2.9,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "2.9x+ included usage than Pro+"
+        }
+      ],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $70 monthly total credits for Pro+"
+    },
+    {
+      "rank": 19,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Team members",
+      "price": 240.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 240.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 75.5,
+      "value_score": 0.3,
+      "features": [
+        "agent",
+        "api_access",
+        "cli",
+        "mcp",
+        "team"
+      ],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "credits",
+          "amount": 18000.0,
+          "unit": "credits",
+          "period": "month",
+          "model_tier": "",
+          "text": "$240 (18,000 credits)"
+        }
+      ],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $240 (18,000 credits)"
+    },
+    {
+      "rank": 20,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Business",
+      "price": 45.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 45.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.2,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $45"
+    },
+    {
+      "rank": 21,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google AI Ultra",
+      "price": 99.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 99.99,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 20.0,
+        "basis": "20× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 20.4,
+      "value_score": 0.2,
+      "features": [
+        "agent"
+      ],
+      "models": [
+        "Gemini"
+      ],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 20.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "Accelerate your workflows with up to 20x access* to Gemini"
+        }
+      ],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $99.99"
+    },
+    {
+      "rank": 22,
+      "vendor_id": "jetbrains-ai",
+      "vendor_name": "JetBrains AI",
+      "region": "global",
+      "plan_name": "AI Pro",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 20.4,
+      "value_score": 0.2,
+      "features": [
+        "agent"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.jetbrains.com/ai-ides/buy/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $100.00"
+    },
+    {
+      "rank": 23,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Business",
+      "price": 50.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 50.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.1,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $50"
+    },
+    {
+      "rank": 24,
+      "vendor_id": "anthropic-claude",
+      "vendor_name": "Anthropic Claude (Pro / Max)",
+      "region": "global",
+      "plan_name": "5x more usage than standard seats*",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.1,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.anthropic.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $100"
+    },
+    {
+      "rank": 25,
+      "vendor_id": "augment-code",
+      "vendor_name": "Augment Code",
+      "region": "global",
+      "plan_name": "BUSINESS",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.1,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.augmentcode.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $100"
+    },
+    {
+      "rank": 26,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Max",
+      "price": 180.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 180.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 12.0,
+        "basis": "18000 credits (not converted); 12× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 28.6,
+      "value_score": 0.1,
+      "features": [
+        "agent",
+        "team"
+      ],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "credits",
+          "amount": 18000.0,
+          "unit": "credits",
+          "period": "month",
+          "model_tier": "",
+          "text": "18,000 credits (12× the included usage of Build)"
+        },
+        {
+          "kind": "multiplier",
+          "amount": 12.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "18,000 credits (12× the included usage of Build)"
+        }
+      ],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $180"
+    },
+    {
+      "rank": 27,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "2.9x+ included usage than Pro+",
+      "price": 200.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 200.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 12.2,
+      "value_score": 0.1,
+      "features": [
+        "ide"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $200 monthly total credits for Max"
+    },
+    {
+      "rank": 28,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Max",
+      "price": 200.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 200.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 20.4,
+      "value_score": 0.1,
+      "features": [
+        "agent"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $200 per month"
+    },
+    {
+      "rank": 29,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Max",
+      "price": 200.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 200.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 12.0,
+        "basis": "18000 credits (not converted); 12× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 28.6,
+      "value_score": 0.1,
+      "features": [
+        "agent",
+        "team"
+      ],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "credits",
+          "amount": 18000.0,
+          "unit": "credits",
+          "period": "month",
+          "model_tier": "",
+          "text": "18,000 credits (12× the included usage of Build)"
+        },
+        {
+          "kind": "multiplier",
+          "amount": 12.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "18,000 credits (12× the included usage of Build)"
+        }
+      ],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $200"
+    },
+    {
+      "rank": 30,
+      "vendor_id": "anthropic-claude",
+      "vendor_name": "Anthropic Claude (Pro / Max)",
+      "region": "global",
+      "plan_name": "Free",
+      "price": 0.0,
+      "currency": "USD",
+      "billing_period": "free",
+      "effective_monthly_usd": 0.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Claude"
+      ],
+      "quotas": [],
+      "source_url": "https://www.anthropic.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed",
+        "free tier"
+      ],
+      "plan_notes": "price line: $0"
+    },
+    {
+      "rank": 31,
+      "vendor_id": "bytedance-trae",
+      "vendor_name": "ByteDance Trae",
+      "region": "cn",
+      "plan_name": "Pro",
+      "price": 0.0,
+      "currency": "USD",
+      "billing_period": "free",
+      "effective_monthly_usd": 0.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.trae.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed",
+        "free tier"
+      ],
+      "plan_notes": "price line: $0"
+    },
+    {
+      "rank": 32,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Free",
+      "price": 0.0,
+      "currency": "USD",
+      "billing_period": "free",
+      "effective_monthly_usd": 0.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed",
+        "free tier"
+      ],
+      "plan_notes": "price line: $0"
+    },
+    {
+      "rank": 33,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google Home Premium Advanced",
+      "price": 0.0,
+      "currency": "USD",
+      "billing_period": "free",
+      "effective_monthly_usd": 0.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed",
+        "free tier"
+      ],
+      "plan_notes": "price line: Reset all to $0"
+    },
+    {
+      "rank": 34,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google Home Premium Standard",
+      "price": 0.0,
+      "currency": "USD",
+      "billing_period": "free",
+      "effective_monthly_usd": 0.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed",
+        "free tier"
+      ],
+      "plan_notes": "price line: Reset all to $0"
+    },
+    {
+      "rank": 35,
+      "vendor_id": "anthropic-claude",
+      "vendor_name": "Anthropic Claude (Pro / Max)",
+      "region": "global",
+      "plan_name": "Daily driver for agentic coding and enterprise work",
+      "price": 0.2,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 0.2,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.anthropic.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $0.20"
+    },
+    {
+      "rank": 36,
+      "vendor_id": "anthropic-claude",
+      "vendor_name": "Anthropic Claude (Pro / Max)",
+      "region": "global",
+      "plan_name": "Ideal for complex agentic coding and enterprise work",
+      "price": 0.5,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 0.5,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.anthropic.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $0.50"
+    },
+    {
+      "rank": 37,
+      "vendor_id": "bytedance-trae",
+      "vendor_name": "ByteDance Trae",
+      "region": "cn",
+      "plan_name": "Lite",
+      "price": 3.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 3.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.trae.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $3"
+    },
+    {
+      "rank": 38,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google AI Plus",
+      "price": 4.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 4.99,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 2.0,
+        "basis": "2× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Gemini"
+      ],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 2.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "Unlock essential tools to boost productivity with 2x access* to Gemini"
+        }
+      ],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $4.99"
+    },
+    {
+      "rank": 39,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Plus",
+      "price": 4.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 4.99,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $4.99"
+    },
+    {
+      "rank": 40,
+      "vendor_id": "bytedance-trae",
+      "vendor_name": "ByteDance Trae",
+      "region": "cn",
+      "plan_name": "Monthly Basic Usage",
+      "price": 5.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 5.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.trae.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $5 Basic usage"
+    },
+    {
+      "rank": 41,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Pro",
+      "price": 5.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 5.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $5 per month"
+    },
+    {
+      "rank": 42,
+      "vendor_id": "zed",
+      "vendor_name": "Zed",
+      "region": "global",
+      "plan_name": "How does the free trial work?",
+      "price": 5.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 5.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "GPT"
+      ],
+      "quotas": [],
+      "source_url": "https://zed.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: We offer a 14-day free trial of Pro with $5 of GPT-6 Luna usage and unlimited accepted edit predictions."
+    },
+    {
+      "rank": 43,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "5 TB cloud storage",
+      "price": 8.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 8.99,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: Premium Lite ($8.99)"
+    },
+    {
+      "rank": 44,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google Home Premium",
+      "price": 9.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 9.99,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Gemini"
+      ],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $9.99"
+    },
+    {
+      "rank": 45,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Unlock Google Health Premium (",
+      "price": 9.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 9.99,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Gemini"
+      ],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $9.99"
+    },
+    {
+      "rank": 46,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Pro",
+      "price": 10.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $10"
+    },
+    {
+      "rank": 47,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Cloud storage",
+      "price": 10.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $10/mo"
+    },
+    {
+      "rank": 48,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google Cloud credits",
+      "price": 10.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $10 monthly credits"
+    },
+    {
+      "rank": 49,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google Health Premium",
+      "price": 10.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $10/mo"
+    },
+    {
+      "rank": 50,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "YouTube Premium Lite",
+      "price": 10.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $10/mo"
+    },
+    {
+      "rank": 51,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "YouTube Premium individual",
+      "price": 10.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $10/mo"
+    },
+    {
+      "rank": 52,
+      "vendor_id": "zed",
+      "vendor_name": "Zed",
+      "region": "global",
+      "plan_name": "Free Trial",
+      "price": 10.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://zed.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $10"
+    },
+    {
+      "rank": 53,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Access to Cloud agent and code review",
+      "price": 15.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 15.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 4.0,
+        "basis": "4× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Opus"
+      ],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 4.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "4x+ included usage than Pro"
+        }
+      ],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $15 monthly total credits for Pro"
+    },
+    {
+      "rank": 54,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Pro",
+      "price": 15.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 15.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $15 per month"
+    },
+    {
+      "rank": 55,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "20 TB cloud storage",
+      "price": 15.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 15.99,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: Premium individual ($15.99)"
+    },
+    {
+      "rank": 56,
+      "vendor_id": "anthropic-claude",
+      "vendor_name": "Anthropic Claude (Pro / Max)",
+      "region": "global",
+      "plan_name": "Pro",
+      "price": 17.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 17.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.anthropic.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $17"
+    },
+    {
+      "rank": 57,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Limited cloud conversation storage",
+      "price": 18.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 18.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $18"
+    },
+    {
+      "rank": 58,
+      "vendor_id": "amazon-q",
+      "vendor_name": "Amazon Q Developer",
+      "region": "global",
+      "plan_name": "How is the Amazon Q Developer monthly subscription billed?",
+      "price": 19.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 19.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://aws.amazon.com/q/developer/pricing/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: Daily Cost: 0.333 * $19 per user-month = $6.33"
+    },
+    {
+      "rank": 59,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google AI Pro",
+      "price": 19.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 19.99,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 4.0,
+        "basis": "4× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Gemini"
+      ],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 4.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "Create faster and get more done with 4x access* to Gemini"
+        }
+      ],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $19.99"
+    },
+    {
+      "rank": 60,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google AI Pro bundle",
+      "price": 19.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 19.99,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $19.99/mo"
+    },
+    {
+      "rank": 61,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Pro",
+      "price": 19.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 19.99,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 5.0,
+        "basis": "5× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 5.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "Ultra 5x"
+        }
+      ],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $19.99"
+    },
+    {
+      "rank": 62,
+      "vendor_id": "bytedance-trae",
+      "vendor_name": "ByteDance Trae",
+      "region": "cn",
+      "plan_name": "Everything in Lite, plus:",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.trae.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20 Basic usage"
+    },
+    {
+      "rank": 63,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Premium AI chatbots",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Gemini"
+      ],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20/mo"
+    },
+    {
+      "rank": 64,
+      "vendor_id": "replit",
+      "vendor_name": "Replit",
+      "region": "global",
+      "plan_name": "Up to 60 projects on Free Mode",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://replit.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20 towards most powerful models"
+    },
+    {
+      "rank": 65,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Limited cloud conversation storage",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20"
+    },
+    {
+      "rank": 66,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Team members",
+      "price": 20.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 20.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "credits",
+          "amount": 1500.0,
+          "unit": "credits",
+          "period": "month",
+          "model_tier": "",
+          "text": "$20 (1,500 credits)"
+        }
+      ],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $20 (1,500 credits)"
+    },
+    {
+      "rank": 67,
+      "vendor_id": "bytedance-trae",
+      "vendor_name": "ByteDance Trae",
+      "region": "cn",
+      "plan_name": "Pro+",
+      "price": 30.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 30.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 3.5,
+        "basis": "3.5× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 3.5,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "3.5x more usage than Pro"
+        }
+      ],
+      "source_url": "https://www.trae.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $30"
+    },
+    {
+      "rank": 68,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Pro+",
+      "price": 31.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 31.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $31 per month"
+    },
+    {
+      "rank": 69,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Pro+",
+      "price": 39.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 39.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $39"
+    },
+    {
+      "rank": 70,
+      "vendor_id": "factory-droid",
+      "vendor_name": "Factory Droid",
+      "region": "global",
+      "plan_name": "~10x the usage of Pro",
+      "price": 60.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 60.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://factory.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $60/mo"
+    },
+    {
+      "rank": 71,
+      "vendor_id": "github-copilot",
+      "vendor_name": "GitHub Copilot",
+      "region": "global",
+      "plan_name": "Pro+",
+      "price": 70.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 70.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://github.com/features/copilot/plans",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $70 per month"
+    },
+    {
+      "rank": 72,
+      "vendor_id": "windsurf",
+      "vendor_name": "Windsurf",
+      "region": "global",
+      "plan_name": "TEAM PLANS",
+      "price": 80.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 80.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://windsurf.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $80"
+    },
+    {
+      "rank": 73,
+      "vendor_id": "windsurf",
+      "vendor_name": "Windsurf",
+      "region": "global",
+      "plan_name": "Team",
+      "price": 80.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 80.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://windsurf.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $80/month"
+    },
+    {
+      "rank": 74,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Google AI Ultra bundle",
+      "price": 99.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 99.99,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $99.99/mo"
+    },
+    {
+      "rank": 75,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Ultra 5x",
+      "price": 99.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 99.99,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 20.0,
+        "basis": "20× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 20.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "Ultra 20x"
+        }
+      ],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $99.99"
+    },
+    {
+      "rank": 76,
+      "vendor_id": "anthropic-claude",
+      "vendor_name": "Anthropic Claude (Pro / Max)",
+      "region": "global",
+      "plan_name": "Max",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 5.0,
+        "basis": "5× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Claude"
+      ],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 5.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "Choose 5x or 20x more usage than Pro*"
+        },
+        {
+          "kind": "multiplier",
+          "amount": 20.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "Choose 5x or 20x more usage than Pro*"
+        }
+      ],
+      "source_url": "https://www.anthropic.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: From $100"
+    },
+    {
+      "rank": 77,
+      "vendor_id": "bytedance-trae",
+      "vendor_name": "ByteDance Trae",
+      "region": "cn",
+      "plan_name": "Ultra",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 20.0,
+        "basis": "20× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 20.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "20x more usage than Pro"
+        }
+      ],
+      "source_url": "https://www.trae.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $100"
+    },
+    {
+      "rank": 78,
+      "vendor_id": "factory-droid",
+      "vendor_name": "Factory Droid",
+      "region": "global",
+      "plan_name": "Plus",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 5.0,
+        "basis": "5× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 5.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "~5x the usage of Pro"
+        }
+      ],
+      "source_url": "https://factory.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $100"
+    },
+    {
+      "rank": 79,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Premium AI chatbots",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 5.0,
+        "basis": "5× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Gemini"
+      ],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 5.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "5x more Gemini access than Pro"
+        }
+      ],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $100/mo"
+    },
+    {
+      "rank": 80,
+      "vendor_id": "replit",
+      "vendor_name": "Replit",
+      "region": "global",
+      "plan_name": "Even more Free Mode usage to chat and create",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://replit.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $100 towards most powerful models"
+    },
+    {
+      "rank": 81,
+      "vendor_id": "replit",
+      "vendor_name": "Replit",
+      "region": "global",
+      "plan_name": "Pro",
+      "price": 100.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 100.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://replit.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $100"
+    },
+    {
+      "rank": 82,
+      "vendor_id": "google-gemini",
+      "vendor_name": "Google Gemini (AI plans / Code Assist)",
+      "region": "global",
+      "plan_name": "Ultra 20x",
+      "price": 199.99,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 199.99,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 2.0,
+        "basis": "2× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [
+        "Gemini"
+      ],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 2.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "2x*"
+        },
+        {
+          "kind": "multiplier",
+          "amount": 4.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "4x*"
+        },
+        {
+          "kind": "multiplier",
+          "amount": 5.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "5x Pro plan"
+        },
+        {
+          "kind": "multiplier",
+          "amount": 20.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "20x Pro plan"
+        }
+      ],
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $199.99"
+    },
+    {
+      "rank": 83,
+      "vendor_id": "factory-droid",
+      "vendor_name": "Factory Droid",
+      "region": "global",
+      "plan_name": "Max",
+      "price": 200.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 200.0,
+      "capacity": {
+        "premium_requests_month": null,
+        "tokens_month": null,
+        "multiplier": 10.0,
+        "basis": "10× usage",
+        "source": "heuristic",
+        "confidence": 0.5
+      },
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [
+        {
+          "kind": "multiplier",
+          "amount": 10.0,
+          "unit": "usage",
+          "period": "unknown",
+          "model_tier": "",
+          "text": "~10x the usage of Pro"
+        }
+      ],
+      "source_url": "https://factory.ai/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [],
+      "plan_notes": "price line: $200"
+    },
+    {
+      "rank": 84,
+      "vendor_id": "windsurf",
+      "vendor_name": "Windsurf",
+      "region": "global",
+      "plan_name": "Max",
+      "price": 200.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 200.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.0,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://windsurf.com/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $200"
+    },
+    {
+      "rank": 85,
+      "vendor_id": "jetbrains-ai",
+      "vendor_name": "JetBrains AI",
+      "region": "global",
+      "plan_name": "AI Enterprise",
+      "price": 720.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 720.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 12.2,
+      "value_score": 0.0,
+      "features": [
+        "ide"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.jetbrains.com/ai-ides/buy/",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: $720.00"
+    },
+    {
+      "rank": 86,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Enterprise",
+      "price": 10000.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10000.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 8.2,
+      "value_score": 0.0,
+      "features": [
+        "team"
+      ],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: Warp Factories, now in Early Access — select teams get up to $10,000 in factory usage"
+    },
+    {
+      "rank": 87,
+      "vendor_id": "warp",
+      "vendor_name": "Warp",
+      "region": "global",
+      "plan_name": "Everything in Business, plus:",
+      "price": 10000.0,
+      "currency": "USD",
+      "billing_period": "month",
+      "effective_monthly_usd": 10000.0,
+      "capacity": null,
+      "cost_per_1k_requests_usd": null,
+      "cost_per_1m_tokens_usd": null,
+      "capacity_score": 0.0,
+      "feature_score": 0.0,
+      "value_score": 0.0,
+      "features": [],
+      "models": [],
+      "quotas": [],
+      "source_url": "https://www.warp.dev/pricing",
+      "extracted_by": "rules",
+      "confidence": 0.35,
+      "notes": [
+        "no comparable capacity disclosed"
+      ],
+      "plan_notes": "price line: Select teams get up to $10,000 in factory usage during Early Access."
+    }
+  ],
+  "changes": [
+    {
+      "type": "plan_added",
+      "vendor_id": "amazon-q",
+      "plan_name": "Free Tier: Advanced capabilities at zero cost",
+      "field": "",
+      "old": null,
+      "new": 19.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "amazon-q",
+      "plan_name": "How is the Amazon Q Developer monthly subscription billed?",
+      "field": "",
+      "old": null,
+      "new": 19.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "anthropic-claude",
+      "plan_name": "5x more usage than standard seats*",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "anthropic-claude",
+      "plan_name": "All Claude features, plus more usage than Pro*",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "anthropic-claude",
+      "plan_name": "Daily driver for agentic coding and enterprise work",
+      "field": "",
+      "old": null,
+      "new": 0.2
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "anthropic-claude",
+      "plan_name": "Free",
+      "field": "",
+      "old": null,
+      "new": 0.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "anthropic-claude",
+      "plan_name": "Get Enterprise plan",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "anthropic-claude",
+      "plan_name": "Ideal for complex agentic coding and enterprise work",
+      "field": "",
+      "old": null,
+      "new": 0.5
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "anthropic-claude",
+      "plan_name": "Max",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "anthropic-claude",
+      "plan_name": "Pro",
+      "field": "",
+      "old": null,
+      "new": 17.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "augment-code",
+      "plan_name": "BUSINESS",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "augment-code",
+      "plan_name": "ENTERPRISE",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "augment-code",
+      "plan_name": "STANDARD",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "bytedance-trae",
+      "plan_name": "Everything in Lite, plus:",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "bytedance-trae",
+      "plan_name": "Lite",
+      "field": "",
+      "old": null,
+      "new": 3.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "bytedance-trae",
+      "plan_name": "Monthly Basic Usage",
+      "field": "",
+      "old": null,
+      "new": 5.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "bytedance-trae",
+      "plan_name": "Pro",
+      "field": "",
+      "old": null,
+      "new": 0.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "bytedance-trae",
+      "plan_name": "Pro+",
+      "field": "",
+      "old": null,
+      "new": 30.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "bytedance-trae",
+      "plan_name": "Ultra",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "cursor",
+      "plan_name": "Get Pro",
+      "field": "",
+      "old": null,
+      "new": 40.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "cursor",
+      "plan_name": "Individual",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "factory-droid",
+      "plan_name": "Max",
+      "field": "",
+      "old": null,
+      "new": 200.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "factory-droid",
+      "plan_name": "Plus",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "factory-droid",
+      "plan_name": "Pro",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "factory-droid",
+      "plan_name": "~10x the usage of Pro",
+      "field": "",
+      "old": null,
+      "new": 60.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "github-copilot",
+      "plan_name": "2.9x+ included usage than Pro+",
+      "field": "",
+      "old": null,
+      "new": 200.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "github-copilot",
+      "plan_name": "4x+ included usage than Pro",
+      "field": "",
+      "old": null,
+      "new": 70.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "github-copilot",
+      "plan_name": "Access to Cloud agent and code review",
+      "field": "",
+      "old": null,
+      "new": 15.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "github-copilot",
+      "plan_name": "Free",
+      "field": "",
+      "old": null,
+      "new": 0.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "github-copilot",
+      "plan_name": "Max",
+      "field": "",
+      "old": null,
+      "new": 200.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "github-copilot",
+      "plan_name": "Pro",
+      "field": "",
+      "old": null,
+      "new": 5.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "github-copilot",
+      "plan_name": "Pro+",
+      "field": "",
+      "old": null,
+      "new": 31.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "20 TB cloud storage",
+      "field": "",
+      "old": null,
+      "new": 15.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "5 TB cloud storage",
+      "field": "",
+      "old": null,
+      "new": 8.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Cloud storage",
+      "field": "",
+      "old": null,
+      "new": 10.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google AI Plus",
+      "field": "",
+      "old": null,
+      "new": 4.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google AI Pro",
+      "field": "",
+      "old": null,
+      "new": 19.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google AI Pro bundle",
+      "field": "",
+      "old": null,
+      "new": 19.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google AI Ultra",
+      "field": "",
+      "old": null,
+      "new": 99.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google AI Ultra bundle",
+      "field": "",
+      "old": null,
+      "new": 99.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google Cloud credits",
+      "field": "",
+      "old": null,
+      "new": 10.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google Health Premium",
+      "field": "",
+      "old": null,
+      "new": 10.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google Home Premium",
+      "field": "",
+      "old": null,
+      "new": 9.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google Home Premium Advanced",
+      "field": "",
+      "old": null,
+      "new": 0.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Google Home Premium Standard",
+      "field": "",
+      "old": null,
+      "new": 0.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Plus",
+      "field": "",
+      "old": null,
+      "new": 4.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Premium AI chatbots",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Pro",
+      "field": "",
+      "old": null,
+      "new": 19.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Ultra 20x",
+      "field": "",
+      "old": null,
+      "new": 199.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Ultra 5x",
+      "field": "",
+      "old": null,
+      "new": 99.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "Unlock Google Health Premium (",
+      "field": "",
+      "old": null,
+      "new": 9.99
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "YouTube Premium individual",
+      "field": "",
+      "old": null,
+      "new": 10.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "google-gemini",
+      "plan_name": "YouTube Premium Lite",
+      "field": "",
+      "old": null,
+      "new": 10.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "jetbrains-ai",
+      "plan_name": "AI Enterprise",
+      "field": "",
+      "old": null,
+      "new": 720.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "jetbrains-ai",
+      "plan_name": "AI Pro",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "replit",
+      "plan_name": "Even more Free Mode usage to chat and create",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "replit",
+      "plan_name": "Pro",
+      "field": "",
+      "old": null,
+      "new": 100.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "replit",
+      "plan_name": "Up to 60 projects on Free Mode",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Business",
+      "field": "",
+      "old": null,
+      "new": 45.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Enterprise",
+      "field": "",
+      "old": null,
+      "new": 10000.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Everything in Build, plus:",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Everything in Business, plus:",
+      "field": "",
+      "old": null,
+      "new": 10000.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Everything in Free, plus:",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Free",
+      "field": "",
+      "old": null,
+      "new": 0.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Limited cloud conversation storage",
+      "field": "",
+      "old": null,
+      "new": 18.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Max",
+      "field": "",
+      "old": null,
+      "new": 180.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "warp",
+      "plan_name": "Team members",
+      "field": "",
+      "old": null,
+      "new": 240.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "windsurf",
+      "plan_name": "Enterprise",
+      "field": "",
+      "old": null,
+      "new": 40.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "windsurf",
+      "plan_name": "Free",
+      "field": "",
+      "old": null,
+      "new": 0.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "windsurf",
+      "plan_name": "Max",
+      "field": "",
+      "old": null,
+      "new": 200.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "windsurf",
+      "plan_name": "Pro",
+      "field": "",
+      "old": null,
+      "new": 20.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "windsurf",
+      "plan_name": "Team",
+      "field": "",
+      "old": null,
+      "new": 80.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "windsurf",
+      "plan_name": "TEAM PLANS",
+      "field": "",
+      "old": null,
+      "new": 80.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "zed",
+      "plan_name": "Business",
+      "field": "",
+      "old": null,
+      "new": 30.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "zed",
+      "plan_name": "Free Trial",
+      "field": "",
+      "old": null,
+      "new": 10.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "zed",
+      "plan_name": "How does the free trial work?",
+      "field": "",
+      "old": null,
+      "new": 5.0
+    },
+    {
+      "type": "plan_added",
+      "vendor_id": "zed",
+      "plan_name": "Personal",
+      "field": "",
+      "old": null,
+      "new": 0.0
+    }
+  ],
+  "ai_insights": ""
+}

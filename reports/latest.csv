@@ -1,0 +1,88 @@
+rank,vendor,region,plan,usd_per_month,capacity_basis,tokens_per_month,requests_per_month,usd_per_1k_requests,usd_per_1m_tokens,feature_score,value_score,source_url
+1,Zed,global,Personal,0.0,,,,,,57.1,100.0,https://zed.dev/pricing
+2,Warp,global,Free,0.0,,,,,,40.8,71.5,https://www.warp.dev/pricing
+3,Windsurf,global,Free,0.0,,,,,,20.4,35.7,https://windsurf.com/pricing
+4,Windsurf,global,Pro,20.0,,,,,,57.1,2.5,https://windsurf.com/pricing
+5,Amazon Q Developer,global,Free Tier: Advanced capabilities at zero cost,19.0,,,,,,53.1,2.4,https://aws.amazon.com/q/developer/pricing/
+6,Warp,global,"Everything in Build, plus:",20.0,,,,,,44.9,2.0,https://www.warp.dev/pricing
+7,Warp,global,"Everything in Free, plus:",20.0,,,,,,44.9,2.0,https://www.warp.dev/pricing
+8,Factory Droid,global,Pro,20.0,,,,,,40.8,1.8,https://factory.ai/pricing
+9,Zed,global,Business,30.0,,,,,,44.9,1.3,https://zed.dev/pricing
+10,Anthropic Claude (Pro / Max),global,Get Enterprise plan,20.0,,,,,,24.5,1.1,https://www.anthropic.com/pricing
+11,Windsurf,global,Enterprise,40.0,,,,,,44.9,1.0,https://windsurf.com/pricing
+12,Cursor,global,Individual,20.0,,,,,,20.4,0.9,https://cursor.com/pricing
+13,Cursor,global,Get Pro,40.0,,,,,,28.6,0.6,https://cursor.com/pricing
+14,Anthropic Claude (Pro / Max),global,"All Claude features, plus more usage than Pro*",20.0,,,,,,8.2,0.4,https://www.anthropic.com/pricing
+15,Augment Code,global,ENTERPRISE,20.0,,,,,,8.2,0.4,https://www.augmentcode.com/pricing
+16,Augment Code,global,STANDARD,20.0,,,,,,8.2,0.4,https://www.augmentcode.com/pricing
+17,GitHub Copilot,global,Max,100.0,,,,,,40.8,0.4,https://github.com/features/copilot/plans
+18,GitHub Copilot,global,4x+ included usage than Pro,70.0,2.9× usage,,,,,20.4,0.3,https://github.com/features/copilot/plans
+19,Warp,global,Team members,240.0,,,,,,75.5,0.3,https://www.warp.dev/pricing
+20,Warp,global,Business,45.0,,,,,,8.2,0.2,https://www.warp.dev/pricing
+21,Google Gemini (AI plans / Code Assist),global,Google AI Ultra,99.99,20× usage,,,,,20.4,0.2,https://one.google.com/about/google-ai-plans/
+22,JetBrains AI,global,AI Pro,100.0,,,,,,20.4,0.2,https://www.jetbrains.com/ai-ides/buy/
+23,Warp,global,Business,50.0,,,,,,8.2,0.1,https://www.warp.dev/pricing
+24,Anthropic Claude (Pro / Max),global,5x more usage than standard seats*,100.0,,,,,,8.2,0.1,https://www.anthropic.com/pricing
+25,Augment Code,global,BUSINESS,100.0,,,,,,8.2,0.1,https://www.augmentcode.com/pricing
+26,Warp,global,Max,180.0,18000 credits (not converted); 12× usage,,,,,28.6,0.1,https://www.warp.dev/pricing
+27,GitHub Copilot,global,2.9x+ included usage than Pro+,200.0,,,,,,12.2,0.1,https://github.com/features/copilot/plans
+28,GitHub Copilot,global,Max,200.0,,,,,,20.4,0.1,https://github.com/features/copilot/plans
+29,Warp,global,Max,200.0,18000 credits (not converted); 12× usage,,,,,28.6,0.1,https://www.warp.dev/pricing
+30,Anthropic Claude (Pro / Max),global,Free,0.0,,,,,,0.0,0.0,https://www.anthropic.com/pricing
+31,ByteDance Trae,cn,Pro,0.0,,,,,,0.0,0.0,https://www.trae.ai/pricing
+32,GitHub Copilot,global,Free,0.0,,,,,,0.0,0.0,https://github.com/features/copilot/plans
+33,Google Gemini (AI plans / Code Assist),global,Google Home Premium Advanced,0.0,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+34,Google Gemini (AI plans / Code Assist),global,Google Home Premium Standard,0.0,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+35,Anthropic Claude (Pro / Max),global,Daily driver for agentic coding and enterprise work,0.2,,,,,,0.0,0.0,https://www.anthropic.com/pricing
+36,Anthropic Claude (Pro / Max),global,Ideal for complex agentic coding and enterprise work,0.5,,,,,,0.0,0.0,https://www.anthropic.com/pricing
+37,ByteDance Trae,cn,Lite,3.0,,,,,,0.0,0.0,https://www.trae.ai/pricing
+38,Google Gemini (AI plans / Code Assist),global,Google AI Plus,4.99,2× usage,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+39,Google Gemini (AI plans / Code Assist),global,Plus,4.99,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+40,ByteDance Trae,cn,Monthly Basic Usage,5.0,,,,,,0.0,0.0,https://www.trae.ai/pricing
+41,GitHub Copilot,global,Pro,5.0,,,,,,0.0,0.0,https://github.com/features/copilot/plans
+42,Zed,global,How does the free trial work?,5.0,,,,,,0.0,0.0,https://zed.dev/pricing
+43,Google Gemini (AI plans / Code Assist),global,5 TB cloud storage,8.99,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+44,Google Gemini (AI plans / Code Assist),global,Google Home Premium,9.99,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+45,Google Gemini (AI plans / Code Assist),global,Unlock Google Health Premium (,9.99,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+46,GitHub Copilot,global,Pro,10.0,,,,,,0.0,0.0,https://github.com/features/copilot/plans
+47,Google Gemini (AI plans / Code Assist),global,Cloud storage,10.0,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+48,Google Gemini (AI plans / Code Assist),global,Google Cloud credits,10.0,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+49,Google Gemini (AI plans / Code Assist),global,Google Health Premium,10.0,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+50,Google Gemini (AI plans / Code Assist),global,YouTube Premium Lite,10.0,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+51,Google Gemini (AI plans / Code Assist),global,YouTube Premium individual,10.0,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+52,Zed,global,Free Trial,10.0,,,,,,0.0,0.0,https://zed.dev/pricing
+53,GitHub Copilot,global,Access to Cloud agent and code review,15.0,4× usage,,,,,0.0,0.0,https://github.com/features/copilot/plans
+54,GitHub Copilot,global,Pro,15.0,,,,,,0.0,0.0,https://github.com/features/copilot/plans
+55,Google Gemini (AI plans / Code Assist),global,20 TB cloud storage,15.99,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+56,Anthropic Claude (Pro / Max),global,Pro,17.0,,,,,,0.0,0.0,https://www.anthropic.com/pricing
+57,Warp,global,Limited cloud conversation storage,18.0,,,,,,0.0,0.0,https://www.warp.dev/pricing
+58,Amazon Q Developer,global,How is the Amazon Q Developer monthly subscription billed?,19.0,,,,,,0.0,0.0,https://aws.amazon.com/q/developer/pricing/
+59,Google Gemini (AI plans / Code Assist),global,Google AI Pro,19.99,4× usage,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+60,Google Gemini (AI plans / Code Assist),global,Google AI Pro bundle,19.99,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+61,Google Gemini (AI plans / Code Assist),global,Pro,19.99,5× usage,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+62,ByteDance Trae,cn,"Everything in Lite, plus:",20.0,,,,,,0.0,0.0,https://www.trae.ai/pricing
+63,Google Gemini (AI plans / Code Assist),global,Premium AI chatbots,20.0,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+64,Replit,global,Up to 60 projects on Free Mode,20.0,,,,,,0.0,0.0,https://replit.com/pricing
+65,Warp,global,Limited cloud conversation storage,20.0,,,,,,0.0,0.0,https://www.warp.dev/pricing
+66,Warp,global,Team members,20.0,,,,,,0.0,0.0,https://www.warp.dev/pricing
+67,ByteDance Trae,cn,Pro+,30.0,3.5× usage,,,,,0.0,0.0,https://www.trae.ai/pricing
+68,GitHub Copilot,global,Pro+,31.0,,,,,,0.0,0.0,https://github.com/features/copilot/plans
+69,GitHub Copilot,global,Pro+,39.0,,,,,,0.0,0.0,https://github.com/features/copilot/plans
+70,Factory Droid,global,~10x the usage of Pro,60.0,,,,,,0.0,0.0,https://factory.ai/pricing
+71,GitHub Copilot,global,Pro+,70.0,,,,,,0.0,0.0,https://github.com/features/copilot/plans
+72,Windsurf,global,TEAM PLANS,80.0,,,,,,0.0,0.0,https://windsurf.com/pricing
+73,Windsurf,global,Team,80.0,,,,,,0.0,0.0,https://windsurf.com/pricing
+74,Google Gemini (AI plans / Code Assist),global,Google AI Ultra bundle,99.99,,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+75,Google Gemini (AI plans / Code Assist),global,Ultra 5x,99.99,20× usage,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+76,Anthropic Claude (Pro / Max),global,Max,100.0,5× usage,,,,,0.0,0.0,https://www.anthropic.com/pricing
+77,ByteDance Trae,cn,Ultra,100.0,20× usage,,,,,0.0,0.0,https://www.trae.ai/pricing
+78,Factory Droid,global,Plus,100.0,5× usage,,,,,0.0,0.0,https://factory.ai/pricing
+79,Google Gemini (AI plans / Code Assist),global,Premium AI chatbots,100.0,5× usage,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+80,Replit,global,Even more Free Mode usage to chat and create,100.0,,,,,,0.0,0.0,https://replit.com/pricing
+81,Replit,global,Pro,100.0,,,,,,0.0,0.0,https://replit.com/pricing
+82,Google Gemini (AI plans / Code Assist),global,Ultra 20x,199.99,2× usage,,,,,0.0,0.0,https://one.google.com/about/google-ai-plans/
+83,Factory Droid,global,Max,200.0,10× usage,,,,,0.0,0.0,https://factory.ai/pricing
+84,Windsurf,global,Max,200.0,,,,,,8.2,0.0,https://windsurf.com/pricing
+85,JetBrains AI,global,AI Enterprise,720.0,,,,,,12.2,0.0,https://www.jetbrains.com/ai-ides/buy/
+86,Warp,global,Enterprise,10000.0,,,,,,8.2,0.0,https://www.warp.dev/pricing
+87,Warp,global,"Everything in Business, plus:",10000.0,,,,,,0.0,0.0,https://www.warp.dev/pricing

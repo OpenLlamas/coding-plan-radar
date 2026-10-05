@@ -1,0 +1,81 @@
+# Detected changes
+
+`2026-10-05T15:04:00+00:00`
+
+- **Amazon Q Developer · Free Tier: Advanced capabilities at zero cost** — new plan: 19.0
+- **Amazon Q Developer · How is the Amazon Q Developer monthly subscription billed?** — new plan: 19.0
+- **Anthropic Claude (Pro / Max) · 5x more usage than standard seats*** — new plan: 100.0
+- **Anthropic Claude (Pro / Max) · All Claude features, plus more usage than Pro*** — new plan: 20.0
+- **Anthropic Claude (Pro / Max) · Daily driver for agentic coding and enterprise work** — new plan: 0.2
+- **Anthropic Claude (Pro / Max) · Free** — new plan: 
+- **Anthropic Claude (Pro / Max) · Get Enterprise plan** — new plan: 20.0
+- **Anthropic Claude (Pro / Max) · Ideal for complex agentic coding and enterprise work** — new plan: 0.5
+- **Anthropic Claude (Pro / Max) · Max** — new plan: 100.0
+- **Anthropic Claude (Pro / Max) · Pro** — new plan: 17.0
+- **Augment Code · BUSINESS** — new plan: 100.0
+- **Augment Code · ENTERPRISE** — new plan: 20.0
+- **Augment Code · STANDARD** — new plan: 20.0
+- **ByteDance Trae · Everything in Lite, plus:** — new plan: 20.0
+- **ByteDance Trae · Lite** — new plan: 3.0
+- **ByteDance Trae · Monthly Basic Usage** — new plan: 5.0
+- **ByteDance Trae · Pro** — new plan: 
+- **ByteDance Trae · Pro+** — new plan: 30.0
+- **ByteDance Trae · Ultra** — new plan: 100.0
+- **Cursor · Get Pro** — new plan: 40.0
+- **Cursor · Individual** — new plan: 20.0
+- **Factory Droid · Max** — new plan: 200.0
+- **Factory Droid · Plus** — new plan: 100.0
+- **Factory Droid · Pro** — new plan: 20.0
+- **Factory Droid · ~10x the usage of Pro** — new plan: 60.0
+- **GitHub Copilot · 2.9x+ included usage than Pro+** — new plan: 200.0
+- **GitHub Copilot · 4x+ included usage than Pro** — new plan: 70.0
+- **GitHub Copilot · Access to Cloud agent and code review** — new plan: 15.0
+- **GitHub Copilot · Free** — new plan: 
+- **GitHub Copilot · Max** — new plan: 200.0
+- **GitHub Copilot · Pro** — new plan: 5.0
+- **GitHub Copilot · Pro+** — new plan: 31.0
+- **Google Gemini (AI plans / Code Assist) · 20 TB cloud storage** — new plan: 15.99
+- **Google Gemini (AI plans / Code Assist) · 5 TB cloud storage** — new plan: 8.99
+- **Google Gemini (AI plans / Code Assist) · Cloud storage** — new plan: 10.0
+- **Google Gemini (AI plans / Code Assist) · Google AI Plus** — new plan: 4.99
+- **Google Gemini (AI plans / Code Assist) · Google AI Pro** — new plan: 19.99
+- **Google Gemini (AI plans / Code Assist) · Google AI Pro bundle** — new plan: 19.99
+- **Google Gemini (AI plans / Code Assist) · Google AI Ultra** — new plan: 99.99
+- **Google Gemini (AI plans / Code Assist) · Google AI Ultra bundle** — new plan: 99.99
+- **Google Gemini (AI plans / Code Assist) · Google Cloud credits** — new plan: 10.0
+- **Google Gemini (AI plans / Code Assist) · Google Health Premium** — new plan: 10.0
+- **Google Gemini (AI plans / Code Assist) · Google Home Premium** — new plan: 9.99
+- **Google Gemini (AI plans / Code Assist) · Google Home Premium Advanced** — new plan: 
+- **Google Gemini (AI plans / Code Assist) · Google Home Premium Standard** — new plan: 
+- **Google Gemini (AI plans / Code Assist) · Plus** — new plan: 4.99
+- **Google Gemini (AI plans / Code Assist) · Premium AI chatbots** — new plan: 100.0
+- **Google Gemini (AI plans / Code Assist) · Pro** — new plan: 19.99
+- **Google Gemini (AI plans / Code Assist) · Ultra 20x** — new plan: 199.99
+- **Google Gemini (AI plans / Code Assist) · Ultra 5x** — new plan: 99.99
+- **Google Gemini (AI plans / Code Assist) · Unlock Google Health Premium (** — new plan: 9.99
+- **Google Gemini (AI plans / Code Assist) · YouTube Premium individual** — new plan: 10.0
+- **Google Gemini (AI plans / Code Assist) · YouTube Premium Lite** — new plan: 10.0
+- **JetBrains AI · AI Enterprise** — new plan: 720.0
+- **JetBrains AI · AI Pro** — new plan: 100.0
+- **Replit · Even more Free Mode usage to chat and create** — new plan: 100.0
+- **Replit · Pro** — new plan: 100.0
+- **Replit · Up to 60 projects on Free Mode** — new plan: 20.0
+- **Warp · Business** — new plan: 45.0
+- **Warp · Enterprise** — new plan: 10000.0
+- **Warp · Everything in Build, plus:** — new plan: 20.0
+- **Warp · Everything in Business, plus:** — new plan: 10000.0
+- **Warp · Everything in Free, plus:** — new plan: 20.0
+- **Warp · Free** — new plan: 
+- **Warp · Limited cloud conversation storage** — new plan: 18.0
+- **Warp · Max** — new plan: 180.0
+- **Warp · Team members** — new plan: 240.0
+- **Windsurf · Enterprise** — new plan: 40.0
+- **Windsurf · Free** — new plan: 
+- **Windsurf · Max** — new plan: 200.0
+- **Windsurf · Pro** — new plan: 20.0
+- **Windsurf · Team** — new plan: 80.0
+- **Windsurf · TEAM PLANS** — new plan: 80.0
+- **Zed · Business** — new plan: 30.0
+- **Zed · Free Trial** — new plan: 10.0
+- **Zed · How does the free trial work?** — new plan: 5.0
+- **Zed · Personal** — new plan: 
